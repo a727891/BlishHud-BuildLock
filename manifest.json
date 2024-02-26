@@ -1,0 +1,29 @@
+{
+  "name": "Boons Up",
+  "version": "0.0.1",
+  "namespace": "Soeed.BoonsUp",
+  "package": "BlishHud-BoonsUp.dll",
+  "manifest_version": 1,
+  "description": "Boon Visibility",
+  "dependencies": {
+    "bh.blishhud": ">=1.0.0"
+  },
+  "url": "https://github.com/a727891/BlishHud-BoonsUp",
+  "contributors": [
+    {
+      "name": "Soeed",
+      "username": "soeed.4160",
+      "url": "https://github.com/a727891"
+    }
+  ],
+  "directories": [
+    "BoonsUp"
+  ],
+  "enabled_without_gw2": false,
+  "api_permissions": {
+    "account": {
+      "optional": false,
+      "details": "required for tracking multiple accounts"
+    }
+  }
+}
